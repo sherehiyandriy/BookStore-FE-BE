@@ -1,0 +1,25 @@
+.book-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 120px;
+
+  .book-name-author {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-title {
+      font-size: 2rem;
+      text-decoration: underline;
+    }
+  }
+
+  .book-des-price {
+    display: flex;
+    flex-direction: column;
+  }
+}
